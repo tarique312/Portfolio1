@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+  background: center / cover linear-gradient(to right, #8e2de2, #4a00e0)
+    no-repeat;
+  color: white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover; /* Ensures the gradient covers the entire background */
+  background-attachment: fixed; /* Prevents the gradient from scrolling with the content */
+  background-blend-mode: multiply;
+  padding-left: 10vw;
+  overflow: hidden;
+}
+
+.parent {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  color: white;
+}
+
+.left {
+  width: 50vw;
+  height: 80vh;
+}
+
+.heading {
+  height: 6vh;
+  width: 18vw;
+  background-color: white;
+  font-weight: 500;
+  font-size: 2.8vw;
+  color: #303030;
+  text-align: center;
+  letter-spacing: 0.5vw;
+  margin-top: 15vh;
+}
+
+.right {
+  position: relative;
+  height: 80vh;
+  width: 30vw;
+  display: flex;
+  margin-left: 11.5vw;
+  z-index: -1;
+}
+
+.profile-image {
+  position: relative;
+  height: 75vh;
+  width: 20vw;
+  top: 0;
+  right: 12.5vw;
+  border-radius: 18vh;
+  object-fit: cover;
+  border: none;
+  display: block;
+  filter: drop-shadow(0 4px 4px rgba(210, 37, 37, 0.5));
+}
+
+.main p {
+  font-weight: 100;
+  margin-top: 1vh;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}

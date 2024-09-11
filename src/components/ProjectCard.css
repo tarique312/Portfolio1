@@ -1,0 +1,55 @@
+/* ProjectCard.css */
+.card {
+  text-align: center;
+  height: 320px;
+  width: 250px;
+  margin-top: 8vh;
+  margin-right: 3.5vw;
+  margin-bottom: 5vh;
+  border: 1px solid white;
+  background-color: #1d1d1d;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; Ensures space between items */
+  padding: 15px; /*Add padding for some space inside the card*/
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px; /* Fixed height for the image to fit within the card */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 10%;
+}
+
+.text {
+  text-align: left;
+}
+
+.type {
+  font-weight: 200;
+  color: #c7c7c7;
+}
+
+.type,
+.title {
+  display: block;
+  margin-top: 1vh;
+}
+
+button {
+  background-color: white;
+  color: #303030;
+  padding: 10px;
+  width: 8vw;
+  text-align: center;
+  border-radius: 26px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+}

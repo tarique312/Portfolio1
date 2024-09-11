@@ -1,0 +1,40 @@
+.scroll {
+  margin-top: 8vh;
+  font-size: 40px;
+  font-weight: 800;
+  /* color: transparent;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px; /* Add spacing between each contact item */
+  margin-top: 20px;
+}
+
+#contact-title {
+  margin-top: 8vh !important;
+}
+
+.contact-detail p {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+}
+
+.contact-detail span img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+}
+
+#bottom {
+  margin-top: 20px;
+}
+
+#bottom a {
+  margin: 0 20px;
+}
